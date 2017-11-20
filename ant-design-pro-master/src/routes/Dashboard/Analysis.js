@@ -15,7 +15,7 @@ const { TabPane } = Tabs;
 const { RangePicker } = DatePicker;
 
 const rankingListData = [];
-for (let i = 0; i < 7; i += 1) {
+for (let i = 1; i < 7; i += 1) {
   rankingListData.push({
     title: `工专路 ${i} 号店`,
     total: 323234,
