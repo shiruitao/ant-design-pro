@@ -270,7 +270,7 @@ class BasicLayout extends React.PureComponent {
         >
           <div className={styles.logo}>
             <Link to="/">
-              <img src="https://gw.alipayobjects.com/zos/rmsportal/iwWyPinUoseUxIAeElSx.svg" alt="logo" />
+              <img src="https://gw.alipayobjects.com/zos/rmsportal/iwWyPinUoseUxIAeElSx.svg" alt="logoIcon" />
               <h1>Ant Design Pro</h1>
             </Link>
           </div>
