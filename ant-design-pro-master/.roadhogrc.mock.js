@@ -23,7 +23,7 @@ const proxy = {
       },
     },
     $body: {
-      name: 'Serati Ma',
+      name: '杰克马',
       avatar: 'https://gw.alipayobjects.com/zos/rmsportal/dRFVcIqZOYPcSNrlJsqQ.png',
       userid: '00000001',
       notifyCount: 12,
