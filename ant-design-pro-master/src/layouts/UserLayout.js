@@ -8,13 +8,13 @@ import styles from './UserLayout.less';
 
 const links = [{
   title: '帮助',
-  href: '',
+  href: 'http://shiruitao.github.io',
 }, {
   title: '隐私',
-  href: '',
+  href: 'http://shiruitao.github.io',
 }, {
   title: '条款',
-  href: '',
+  href: 'http://shiruitao.github.io',
 }];
 
 const copyright = <div>Copyright <Icon type="copyright" /> 2017 蚂蚁金服体验技术部出品</div>;
