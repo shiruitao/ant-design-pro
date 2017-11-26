@@ -358,7 +358,7 @@ class BasicLayout extends React.PureComponent {
                   )
                 )
               }
-              <Redirect exact from="/" to="/user/login" />
+              <Redirect exact from="/" to="dashboard/analysis" />
               <Route component={NotFound} />
             </Switch>
             <GlobalFooter
@@ -398,7 +398,7 @@ class BasicLayout extends React.PureComponent {
 
 export default connect(state => ({
   currentUser: state.user.currentUser,
-  // collapsed: state.global.collapsed,
+  collapsed: state.global.collapsed,
   fetchingNotices: state.global.fetchingNotices,
   notices: state.global.notices,
 }))(BasicLayout);
